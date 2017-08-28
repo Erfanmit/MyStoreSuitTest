@@ -78,12 +78,7 @@ public class QuickViewPage_Testing {
 	{
 		logger.info("Changes testing in github");
 		System.out.println("Yooooooooooo");
-		
-		
-		
-		
-		
-		
+		logger.info("Third try");
 		logger.info("Test Case 5.01 is starting...");
 		myhomepage = new HomePage(driver);
 		myhomepage.homepageVerification();
