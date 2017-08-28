@@ -25,6 +25,7 @@ import come.finalproject.mystore.pages.QuickViewPage;
 import come.finalproject.mystore.pages.ShippingPage;
 import come.finalproject.mystore.pages.ShoppingCart;
 import come.finalproject.mystore.pages.WishListPage;
+import jdk.nashorn.internal.runtime.options.LoggingOption.LoggerInfo;
 
 
 public class QuickViewPage_Testing {
@@ -75,6 +76,14 @@ public class QuickViewPage_Testing {
 	
 	public void verifySize_Medium () throws InterruptedException
 	{
+		logger.info("Changes testing in github");
+		System.out.println("Yooooooooooo");
+		
+		
+		
+		
+		
+		
 		logger.info("Test Case 5.01 is starting...");
 		myhomepage = new HomePage(driver);
 		myhomepage.homepageVerification();
